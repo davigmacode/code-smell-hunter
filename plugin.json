@@ -1,0 +1,15 @@
+{
+  "name": "code-smell-hunter",
+  "displayName": "Code Smell Hunter & Refactor",
+  "version": "1.0.0",
+  "description": "Systematic code smell detection and precision refactoring for Antigravity. Hunts down Bloaters, OO Abusers, Change Preventers, Dispensables, and Couplers using Martin Fowler recipes and regression-safe subagents.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "/smell Audit this file for code smells, classify them by severity, and propose refactoring steps",
+    "Identify any God Class or Long Method anti-patterns in our service layer and safely decompose them",
+    "Refactor complex nested conditionals into clean guard clauses and strategy pattern without breaking tests"
+  ],
+  "skills": [
+    "./skills/code-smell-hunter"
+  ]
+}
